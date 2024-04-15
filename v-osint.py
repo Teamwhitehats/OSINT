@@ -11,7 +11,7 @@ import truecallerpy
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types import KeyboardButton, ReplyKeyboardMarkup
 
-API = '' #Your Telegrma Bot API
+API = '7096049387:AAGh02zbrLxlQbxk8TchwleZ5tNyQvmaILo' #Your Telegrma Bot API
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API)
 BOT = instaloader.Instaloader()
@@ -32,12 +32,12 @@ async def start(msg: types.Message):
 
 @dp.message_handler(text='Admin ☠')
 async def admin(msg: types.Message):
-    await msg.answer("Admin --> @placements_VR")
+    await msg.answer("Admin --> @Hackervipking")
 
 
 @dp.message_handler(text='Actress Admirers❤')
 async def actress(msg: types.Message):
-    await msg.answer('--> @Actress_Admirerss')
+    await msg.answer('--> @Hackervipking')
 
 
 @dp.message_handler(text="IG OSINT ☠")
